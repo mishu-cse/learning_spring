@@ -1,0 +1,7 @@
+com/telusko/secureapp/MyUserDetailsService.class
+com/telusko/secureapp/UserRepository.class
+com/telusko/secureapp/HomeController.class
+com/telusko/secureapp/SecureAppApplication.class
+com/telusko/secureapp/User.class
+com/telusko/secureapp/AppSecurityConfig.class
+com/telusko/secureapp/UserPrincipal.class
