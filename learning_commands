@@ -1,0 +1,32 @@
+cd /home/munim/Downloads/apache-tomcat-9.0.34/bin
+./startup.sh
+./shutdown.sh
+
+sudo /etc/init.d/apache2 stop
+
+cd /opt/lampp
+sudo ./manager-linux-x64.run
+
+cd /opt/lampp
+sudo ./uninstall
+sudo rm –r /opt/lamp
+
+sudo /opt/lampp/lampp start
+
+
+sudo /opt/lampp/ctlscript.sh start
+root
+pass: mypassword
+
+cd /home/munim/Downloads/spring-tool-suite-4-4.6.1.RELEASE-e4.15.0-linux.gtk.x86_64/sts-4.6.1.RELEASE
+
+./SpringToolSuite4 
+
+
+/home/munim/Downloads/apache-tomcat-9.0.34/webapps
+
+
+UPDATE mysql.user SET authentication_string = PASSWORD('1234'), password_expired = 'N' WHERE User = 'root' AND Host = 'localhost'
+
+cd /home/munim/Downloads/android-studio-ide-192.6392135-linux/android-studio/bin
+sudo ./studio.sh
